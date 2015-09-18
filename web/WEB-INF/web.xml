@@ -16,6 +16,10 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>idic.servlets.Logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Guardar</servlet-name>
+        <servlet-class>idic.servlets.Guardar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CalcularHuella</servlet-name>
         <url-pattern>/CalcularHuella</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Guardar</servlet-name>
+        <url-pattern>/Guardar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
