@@ -24,6 +24,10 @@
         <servlet-name>Guardar_Transporte</servlet-name>
         <servlet-class>idic.servlets.Guardar_Transporte</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Guardar_Residuos</servlet-name>
+        <servlet-class>idic.servlets.Guardar_Residuos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CalcularHuella</servlet-name>
         <url-pattern>/CalcularHuella</url-pattern>
@@ -47,6 +51,10 @@
     <servlet-mapping>
         <servlet-name>Guardar_Transporte</servlet-name>
         <url-pattern>/encuestaTrans</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Guardar_Residuos</servlet-name>
+        <url-pattern>/Guardar_Residuos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

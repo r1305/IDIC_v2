@@ -1,7 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-
         <nav class="navbar ">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -45,7 +44,10 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="Logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                        <li><a><%=request.getParameter("name")%></a></li>
+                        <li><a href="Logout" ><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                       
+
                     </ul>
                 </div>
             </div>
